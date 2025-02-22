@@ -1,0 +1,379 @@
+body{
+    background-color: #272323;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.content-wrapper{
+    width: 75rem;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+/* -- HEADER ------------------- */
+
+header{
+    display: block;
+    width: 100%;
+    height: 20rem;
+}
+
+.header-title{
+    position: absolute;
+    bottom: 2rem;
+    left: 02rem;
+}
+h1{
+    font-size: 6rem;
+    font-weight: 600;
+    color: #9e9e9ef1;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2);
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #c4c4c48e;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2);
+}
+
+
+.header-contact{
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.icon-linkedin{
+    color: rgb(128,128,128);
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2);
+    font-size:1.75rem;
+    cursor: pointer;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2);
+    transition: all 0.5s ease-in;
+}
+
+.icon-mail-envelope-closed{
+    color: rgb(128,128,128);
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2);
+    font-size:3.5rem;
+    margin-left:0.5rem;
+    cursor: pointer;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2);
+    transition: all 0.5s ease-in;
+    font-weight: 500;
+}
+
+.icon-linkedin:hover, .icon-mail-envelope-closed:hover{
+    text-shadow: 0 0 8px  #9C27B0;
+}
+
+/* -- MAIN ------------------- */
+
+
+.profile{
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: #342f2f;
+    z-index:1;
+    box-shadow: 2px 8px 6px rgba(0,0,0,0.2);
+    
+}
+
+
+
+.profile .text{
+    padding: 5rem 0;
+    
+}
+.profile .profile-title{
+    color: #9e9e9ef1;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.profile .profile-text{
+    color: #9e9e9ef1;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+
+.profile .lang{
+    display: block;
+    position: absolute;
+    width: 4.5rem;
+    height: 3rem;
+    background-color: #342f2f;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    bottom: -3rem;
+    line-height: 3rem;
+    color: #9e9e9ef1;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2);
+    font-size: 1.25rem;
+    text-align: center;
+    box-shadow: 2px 8px 6px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+.profile .lang-en{
+    left: 2rem;
+    z-index: 2;
+}
+
+.profile .lang-de{
+    left: 5.75rem;
+    z-index: 1;
+    background-color: #2f2b2b;
+}
+
+.profile .lang:hover{
+    color: #9C27B0
+}
+
+
+.profile #content1, #content2 {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: none; /* Ensure it's initially hidden */
+}
+
+.profile #content1.active, .profile #content2.active {
+    display: block;
+    opacity: 1;
+}
+
+
+
+/* -- WORK ---------------------- */
+
+.works{
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-top:10rem;
+}
+
+.works .work-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.works li{
+    display: inline-block;
+    width: calc(100% / 4 - 1rem);
+    aspect-ratio: 16 / 22;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.works .work-link{
+    display: block;
+    width: 100%;
+    height:calc(100% - 3.5rem);
+    background-color: #342f2f74;
+    box-shadow: 2px 8px 6px rgba(0,0,0,0.2);
+    
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.works .img-paint{
+    background-size: 90%;
+    background-position:2rem 66%;
+}
+
+.works .img-github{
+    background-position:0 50%;
+}
+
+.works .img-shop{
+    background-size: 70%;
+    background-position:2.5rem 80%;
+    
+}
+
+.works .img-portfolio{
+    background-position:0 88%;
+}
+
+
+
+
+.works .link-text{
+    position: relative;
+    display: inline-block;
+    padding-top: 1.5rem;
+    line-height: 2rem;
+    font-size: 1.25rem;
+    color: #4a4444;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2);
+    
+    height: 3.5rem;
+}
+
+
+.works li .link-text::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0.0125rem;
+    background: #9b27b0;
+    transition: width 0.3s ease-in-out;
+} 
+.works li:hover .link-text::after {
+    width: 100%;
+}
+
+
+.works .work-link-gray{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height:calc(100% - 3.5rem);
+}
+.works .work-link-gray:hover{
+    opacity: 0;
+}
+
+.works .work-link:hover{
+    box-shadow: 0 0 0.5px 0.5px #9b27b0;
+}
+
+
+/* -- SKILLS ------------------- */
+
+.skills{
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-top:10rem;
+}
+
+.skills .skill-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2rem;
+    padding: 5rem 0;
+    margin: 0 0 5rem 0;
+}
+.skills .skill-text{
+    width: calc(50% - 1rem);
+    color: #9e9e9ef1;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+
+
+.skills .skill-list{
+    width: calc(50% - 1rem);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: flex-start;
+}
+
+.skills .skill-list li{
+    font-size: 6rem;
+    color: rgb(128,128,128);
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.skills .skill-list li:hover{
+    text-shadow: 2px 8px 6px #9b27b0;
+}
+
+
+
+@media (max-width: 1200px) {
+    .content-wrapper{
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .skills .skill-list li{
+        font-size: 5rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+        h1{
+            font-size: 4rem;
+        }
+        h2{
+            font-size: 1.75rem;
+        }
+
+
+
+        .header-title{
+            bottom: 6rem;
+        }
+        
+        
+        .header-contact{
+            right: auto;
+            left: 2rem;
+        }
+
+        .works .work-links{
+            flex-wrap: wrap;
+        }
+
+        .works li{
+            width: calc(100% / 2 - 1rem);
+            margin-bottom: 2rem;
+        }
+
+
+        .skills .skill-content{
+            flex-direction: column;
+            gap: 4rem;
+        }
+        
+        .skills .skill-text{
+            width: 100%;
+        }
+        
+        
+        .skills .skill-list{
+            width: 100%;
+        }
+  }
+

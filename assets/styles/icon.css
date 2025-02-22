@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?wl4m3s');
+  src:  url('../fonts/icomoon.eot?wl4m3s#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?wl4m3s') format('truetype'),
+    url('../fonts/icomoon.woff?wl4m3s') format('woff'),
+    url('../fonts/icomoon.svg?wl4m3s#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-language:before {
+  content: "\e900";
+}
+.icon-earth:before {
+  content: "\e901";
+}
+.icon-globe:before {
+  content: "\e901";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-database:before {
+  content: "\e964";
+}
+.icon-spinner6:before {
+  content: "\e97f";
+}
+.icon-new-tab:before {
+  content: "\ea7e";
+}
+.icon-embed2:before {
+  content: "\ea80";
+}
+.icon-mail2:before {
+  content: "\ea84";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+.icon-html-five:before {
+  content: "\eae4";
+}
+.icon-html-five2:before {
+  content: "\eae5";
+}
+.icon-resize:before {
+  content: "\e902";
+}
+.icon-mail:before {
+  content: "\e903";
+}
+.icon-email:before {
+  content: "\e903";
+}
+.icon-letter:before {
+  content: "\e903";
+}
+.icon-envelope:before {
+  content: "\e903";
+}
+.icon-contact:before {
+  content: "\e903";
+}
+.icon-document-file-sql:before {
+  content: "\e904";
+}
+.icon-document-file-sql1:before {
+  content: "\e905";
+}
+.icon-file-sql:before {
+  content: "\e906";
+}
+.icon-file-sql1:before {
+  content: "\e907";
+}
+.icon-document-file-css:before {
+  content: "\e908";
+}
+.icon-document-file-css1:before {
+  content: "\e909";
+}
+.icon-file-css:before {
+  content: "\e90a";
+}
+.icon-file-css1:before {
+  content: "\e90b";
+}
+.icon-mail-envelope-closed:before {
+  content: "\e90c";
+}
+.icon-csharp:before {
+  content: "\e90d";
+  color: #239120;
+}
+.icon-mysql-color:before {
+  content: "\e90e";
+  color: #4479a1;
+}
+.icon-mysql:before {
+  content: "\e90e";
+}
+.icon-git-color:before {
+  content: "\e90f";
+  color: #f05032;
+}
+.icon-git:before {
+  content: "\e90f";
+}
+.icon-angular-color:before {
+  content: "\e910";
+  color: #dd0031;
+}
+.icon-angular:before {
+  content: "\e910";
+}
+.icon-nuxt-dot-js-color:before {
+  content: "\e911";
+  color: #00c58e;
+}
+.icon-nuxt-dot-js:before {
+  content: "\e911";
+}
+.icon-vue-dot-js-color:before {
+  content: "\e912";
+  color: #4fc08d;
+
+}
+.icon-vue-dot-js:before {
+  content: "\e912";
+
+}
+.icon-typescript-color:before {
+  content: "\e913";
+  color: #007acc;
+}
+.icon-typescript:before {
+  content: "\e913";
+}
+.icon-javascript-color:before {
+  content: "\e914";
+  color: #f7df1e;
+}
+.icon-javascript:before {
+  content: "\e914";
+}
+.icon-csswizardry-color:before {
+  content: "\e915";
+  color: #f43059;
+}
+.icon-csswizardry:before {
+  content: "\e915";
+}
+.icon-css3-color:before {
+  content: "\e916";
+  color: #1572b6;
+}
+.icon-css3:before {
+  content: "\e916";
+}
+.icon-html5-color:before {
+  content: "\e917";
+  color: #e34f26;
+}
+.icon-html5:before {
+  content: "\e917";
+}
+.icon-react-color:before {
+  content: "\e918";
+  color: #61dafb;
+}
+.icon-react:before {
+  content: "\e918";
+}
