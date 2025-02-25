@@ -321,11 +321,21 @@ h2{
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1260px) {
     .content-wrapper{
         width: 100%;
         padding: 0 2rem;
     }
+
+    .header-title{
+            left: 2rem;
+        }
+        
+        
+        .header-contact{
+            right: 2rem;
+        }
+    
 
     .skills .skill-list li{
         font-size: 5rem;
