@@ -31,7 +31,7 @@ header{
 .header-title{
     position: absolute;
     bottom: 2rem;
-    left: 02rem;
+    
 }
 h1{
     font-size: 6rem;
@@ -51,7 +51,7 @@ h2{
 .header-contact{
     position: absolute;
     bottom: 1rem;
-    right: 2rem;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -344,6 +344,7 @@ h2{
 
         .header-title{
             bottom: 6rem;
+            left: 2rem;
         }
         
         
